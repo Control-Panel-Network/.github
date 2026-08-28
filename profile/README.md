@@ -3,7 +3,7 @@
 Server panel tooling for AlmaLinux: installers, web engines, mail, and operations helpers.
 
 - Organization: [github.com/Control-Panel-Network](https://github.com/Control-Panel-Network)
-- Contact: info@newstargeted.com
+- Contact: info@newstargeted.com and info@discord-bot-network.com
 - Location: Norway
 
 Coming soon.

@@ -1,0 +1,6 @@
+{
+  "name": "Dependabot config sample",
+  "description": "Sample Dependabot version updates for Cargo, npm, and GitHub Actions. Copy to .github/dependabot.yml and adjust directories.",
+  "iconName": "octicon dependabot",
+  "categories": ["Dependency management", "Security"]
+}

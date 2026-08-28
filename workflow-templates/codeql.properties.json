@@ -1,0 +1,6 @@
+{
+  "name": "CodeQL Analysis",
+  "description": "Run CodeQL analysis for JavaScript/TypeScript and Rust.",
+  "iconName": "octicon shield-check",
+  "categories": ["Code Scanning", "Security"]
+}

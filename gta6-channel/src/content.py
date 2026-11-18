@@ -236,3 +236,8 @@ VIDEOS = [
         kind="cta", lines=["MAÑANA", "EMPEZAMOS"]),
   ]),
 ]
+
+# --- versión larga: inserta las escenas extra antes del cierre (CTA) de cada vídeo
+from extra import EXTRA
+for _v in VIDEOS:
+    _v["scenes"] = _v["scenes"][:-1] + EXTRA[_v["id"]] + _v["scenes"][-1:]

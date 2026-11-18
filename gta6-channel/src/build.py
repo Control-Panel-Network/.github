@@ -404,6 +404,7 @@ def build(v):
         p.stdin.write(frame_at(v, i, i / FPS, starts, durs, scenes_end).tobytes())
     p.stdin.close(); p.wait()
     thumbnail(v)
+    json.dump(dict(starts=starts, total=total), open(os.path.join(AUD, f"{v['id']}_tiempos.json"), 'w'))
     return dict(id=v["id"], file=out, seconds=round(total, 1))
 
 def _job(vid):
